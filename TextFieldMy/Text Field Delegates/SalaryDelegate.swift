@@ -36,7 +36,7 @@ class SalaryDelegate: NSObject, UITextFieldDelegate {
             return oldText
         }
         
-        //check condition: characters should be numbers
+        //check conditions: characters should be numbers
         for digit in digits {
             if (string == digit) || (string == "") {
                 flag = true
